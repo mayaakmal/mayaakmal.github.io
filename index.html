@@ -49,6 +49,15 @@
       </div>
     </div>
     <!-- End Preloader-->
+
+    <!-- Begin Cover -->
+    <div class="cover" id="cover">
+      <h1 class="title">Maya & Akmal</h1>
+      <img src="image/flora-1.png">
+      <div class="button" style="padding:15px 0px;height:20px;width: 150px;margin-left: -75px;text-align: center;margin-top: 40px;font-size: 17px;color:#977655"><small><b>Buka Undangan</b></small></div>
+    </div>
+    <!-- End of Cover -->
+
     <!-- Begin Header -->
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
@@ -95,48 +104,18 @@
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="subtitle">Undangan Pernikahan</h1>
-            <h2 class="title">Maya & Akmal</h2>
-            <h4 class="subtitle tempatwaktu">
-              
-                Minggu, 10 Oktober 2021 
-                </br>
-                Ros-In Hotel
-                <br>
-                Jl. Ringroad Selatan, Sewon, Bantul, DIY
-              
-            </h4>
+            <h2 class="title">Maya</h2>
+            <p class="ampersand" style="color: white;">&</p>
+            <h2 class="title">Akmal</h2>
+            
           </div>
           <!-- Start Countdown -->       
-          <div>
-            <ul id="hitungmundur" >
-              <li><span class="days">00</span><p class="days_text">Hari</p></li>
-              <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
-              <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
-              <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
-            </ul>
+          <div style="text-align: center;">
+            <div class="button" onclick="play()" style="padding:15px 0px;height:20px;width: 150px;text-align: center;margin-top: 20vh;font-size: 17px;color:#977655"><small><b>Buka Undangan</b></small></div>
+            
             <div class="spasi">
             </div>
-            <script type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '10/10/2021 09:00:00';
-
-              $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
-                offset: +8, // TODO Your Timezone Offset
-                day: 'Hari',
-                days: 'Hari'
-              }, function () {
-                alert('Done!');
-              });
-            </script>  
+              
           </div>
           <!-- End Countdown -->
         </div>
@@ -252,6 +231,35 @@
               
             </div>
 
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text" style="color: black;">Hari</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text" style="color: black;">Jam</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text" style="color: black;">Menit</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text" style="color: black;">Detik</p></li>
+            </ul>
+
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '10/10/2021 09:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +8, // TODO Your Timezone Offset
+                day: 'Hari',
+                days: 'Hari'
+              }, function () {
+                alert('Done!');
+              });
+            </script>
+
           </div>
         </div>
         <div class="space40px"></div>
@@ -299,40 +307,27 @@
         <div class="container">
           <div class="columns is-multiline">          
             <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Konfirmasi Kehadiran</h1>
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Kirim Pesan</h1>
             </div>
             <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-              <p class="h2 subtitle">
-                Merupakan suatu kehormatan dan kebahagiaan bagi kami
-                <br>
-                apabila Bapak/Ibu/Saudara/Saudari berkenan hadir
-                memberikan doa restu.
-                <br>
-                <br>
-                Jika bisa hadir kami tunggu konfirmasinya, 
-                <br>
-                Informasi: Di meja penerima tamu akan kami sediakan hand sanitizer dan pemeriksaan suhu tubuh.
-                <br>
-                <br>
-                Jika tidak memungkinkan untuk hadir di pernikahan kami,tidak mengapa,
-                <br> 
-                semoga bisa berjumpa di lain kesempatan
-                <br>
-                <br>
-                Stay safe & jaga kesehatan ya :)
-                </p>
-     
-              <!-- <a href="https://api.whatsapp.com/send?phone=6281805041990&text=Halo%20Ijah,%20saya%20akan%20datang%20di%20acara%20pernikahan&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;Kabari Ijah
-              </a>
-              
 
-          
-              <a href="https://api.whatsapp.com/send?phone=6287884866106&text=Halo%20Opang,%20saya%20akan%20datang%20di%20acara%20pernikahan&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp; Kabari Opang -->
-              </a >
+              <!-- <p>Kirimkan pesan kepada kami</p> -->
+              <br><br>
+
+                <!-- <form name="message" id="message">
+                  <textarea name="entry.1057486686" id="pesan" style="width: 100%; height: fit-content; padding: 10px; border: 1x solid #A5B07F;" rows="6" placeholder="Pesan Anda"></textarea>
+                </form> -->
+
+                <div id="ff-compose"></div>
+                <script async defer src="https://formfacade.com/include/108332566534713650265/form/1FAIpQLSdImtgzqw2piChyX8uyRGtcMBrBhlbLkaNywPorsfX9VCjMwQ/classic.js?div=ff-compose"></script>
+
+                <!-- <button class="button btn-cta" target="_blank" data-aos="zoom-in" onclick="submit()">
+                  <i class="far fa-paper-plane"></i>
+                  &nbsp;&nbsp;Kirim
+                </button> -->
+        
+              <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdImtgzqw2piChyX8uyRGtcMBrBhlbLkaNywPorsfX9VCjMwQ/viewform?embedded=true" width="300" height="375" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe> -->
+
               <div class="space40px"></div>
 
               <div class="space40px"></div>
@@ -349,6 +344,7 @@
                 &nbsp
                 <a class="instagram" href="https://instagram.com/sitimayantii" target="_blank" alt="Instagram Maya">
                   <i class="fab fa-instagram"></i> @sitimayantii
+                </a>
               </p>
 
             </div>
@@ -357,6 +353,14 @@
         </div>
       </section>
       <!-- End RSVP Content -->
+      <!-- <embed name="GoodEnough" src="image/song.mp3" loop="true" hidden="false" autostart="true"></embed> -->
+      
+      <iframe src="image/song.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+      </iframe> 
+      <audio autoplay loop>
+        <source src="image/song.mp3" type="audio/mpeg">
+      </audio>
+
     </div>
     <!-- End Main Content -->
 
@@ -380,6 +384,43 @@
         easing: "ease-out",
         duration: 800,
       });
+    </script>
+
+    <script>
+      alert("Work in Progress, tweaking background photos and cover")
+      function play(){
+        var audio = new Audio('image/song.mp3');
+        audio.play();
+      }
+
+      function submit() {
+
+          var data = {
+            'entry.1057486686' : "test web",
+            // dlut : 1631664611405,
+            hud : true,
+            fvv : 1,
+            // draftResponse: [null,null,"6604897450280667333"],
+            pageHistory: 0,
+            fbzx : 6604897450280667333
+          }
+
+          var url = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdImtgzqw2piChyX8uyRGtcMBrBhlbLkaNywPorsfX9VCjMwQ/formResponse"
+          var form = $(this)
+
+          $.ajax({
+            url: url,
+            type: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function (data) {
+                console.log("success")
+            }
+          
+        });   
+      }   
+      
     </script>
   </body>
 </html>

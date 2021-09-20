@@ -136,11 +136,11 @@
                     <a href="#lokasi">Lokasi</a>
                   </li>
                   <li>
-                    <a href="#tentang-sherly-daeng">Tentang Maya & Akmal</a>
+                    <a href="#tentang-sherly-daeng">Galeri</a>
                   </li>
 
                   <li>
-                    <a href="#rsvp">RSVP</a>
+                    <a href="#rsvp">Ucapan dan Doa</a>
                   </li>
                 </ul>
               </div>
@@ -201,7 +201,7 @@
           </div>
           <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
             <div
-              class="column is-4 has-vertically-aligned-content">
+              class="column is-12 has-vertically-aligned-content" style="margin: 0 auto;">
             
               <p class="is-larger has-text-centered">
                   <div class="waktu tanggal-hari has-text-centered">Minggu</div> 
@@ -210,28 +210,21 @@
               </p>
             
             </div>
-            <div class="column is-4 has-vertically-aligned-content">
+            <div class="column is-12 has-vertically-aligned-content">
             
               <p class="waktu is-larger has-text-centered">
                 Akad Nikah:
                 <br>
                 <strong>09.00 - 10.00 WIB</strong>
+                <br>
+                <br>
+                <br>
+                <br>
               </p>
             
             </div>
 
-            <div class="column is-4 has-vertically-aligned-content">
-              
-              <h1 class="waktu is-larger has-text-centered">
-                Resepsi:
-                <br>
-                <strong>10.00  - Selesai</strong>
-              </h1>
-              
-              
-            </div>
-
-            <ul id="hitungmundur" >
+            <ul id="hitungmundur" style="text-align: center; margin: 0 auto;">
               <li><span class="days">00</span><p class="days_text" style="color: black;">Hari</p></li>
               <li class="separator">:</li>
               <li><span class="hours">00</span><p class="hours_text" style="color: black;">Jam</p></li>
@@ -318,8 +311,11 @@
                   <textarea name="entry.1057486686" id="pesan" style="width: 100%; height: fit-content; padding: 10px; border: 1x solid #A5B07F;" rows="6" placeholder="Pesan Anda"></textarea>
                 </form> -->
 
+                <!-- <div id="ff-compose"></div>
+                <script async defer src="https://formfacade.com/include/108332566534713650265/form/1FAIpQLSdImtgzqw2piChyX8uyRGtcMBrBhlbLkaNywPorsfX9VCjMwQ/classic.js?div=ff-compose"></script> -->
+
                 <div id="ff-compose"></div>
-                <script async defer src="https://formfacade.com/include/108332566534713650265/form/1FAIpQLSdImtgzqw2piChyX8uyRGtcMBrBhlbLkaNywPorsfX9VCjMwQ/classic.js?div=ff-compose"></script>
+                <script async defer src="https://formfacade.com/include/109648584842229195074/form/1FAIpQLSdQ0Tu8Yl9dTT4MDv3u1EUeqoYf9NdG-Ux6STPTBLAK52oTzQ/classic.js?div=ff-compose"></script>
 
                 <!-- <button class="button btn-cta" target="_blank" data-aos="zoom-in" onclick="submit()">
                   <i class="far fa-paper-plane"></i>
@@ -391,6 +387,9 @@
       function play(){
         var audio = new Audio('image/song.mp3');
         audio.play();
+        document.getElementById('regular-section').scrollIntoView({
+          behavior: 'smooth'
+        });
       }
 
       function submit() {

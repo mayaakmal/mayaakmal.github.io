@@ -87,8 +87,8 @@
               </div>
               
               <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Maya & Akmal
+                <a class="navbar-item" href="#gallery">
+                  Galeri
                 </a>
               </div>
               <div class="navbar-item">
@@ -136,9 +136,8 @@
                     <a href="#lokasi">Lokasi</a>
                   </li>
                   <li>
-                    <a href="#tentang-sherly-daeng">Galeri</a>
+                    <a href="#gallery">Galeri</a>
                   </li>
-
                   <li>
                     <a href="#rsvp">Ucapan dan Doa</a>
                   </li>
@@ -292,7 +291,15 @@
       <!-- End Lokasi Content -->
 
       <!-- Gallery -->
-        <div class="splide" id="primary-slider">
+      <section class="section-dark" id="gallery" >
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title" style="padding-bottom: 0px;">Galeri</h1>
+          </div>
+        </div>
+      </section>
+
+        <div class="splide" id="primary-slider" data-aos="fade-up" data-aos-easing="linear">
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide"><img src="image/gallery/image_1.jpg"></li>
@@ -316,6 +323,7 @@
             </div>
           </div>
         </div>
+          
         
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
@@ -344,11 +352,10 @@
             // Set the thumbnails slider as a sync target and then call mount.
             primarySlider.sync( secondarySlider ).mount();
         </script>
-
       <!-- End of Gallery -->
 
       <!-- Begin RSVP Content -->
-      <section class="section-dark contact" id="rsvp">
+      <section class="section-darker contact" id="rsvp">
         <div class="container">
           <div class="columns is-multiline">          
             <div class="column is-12 prolog">

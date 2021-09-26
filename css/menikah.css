@@ -394,6 +394,15 @@ vertical-align: middle;
 }
 
 #ff-submit-root{
+  background-color: #A5B07F;
+  width:  210px;
+  height: 65px;
+  color: white;
+  font-size: 1.2rem;
+  border: 2px solid #A5B07F;
+  border-radius: 10px;
+  align-items: center;
+  margin: 1rem;
   visibility: visible;
 }
 
@@ -571,6 +580,7 @@ body.preloader-site {
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
+  text-decoration: none;
 }
 
 .cashbac-logo-inline {
